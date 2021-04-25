@@ -122,7 +122,7 @@ body {
   margin: 0 7px;
 }
 
-.clearfix::after {
+.clearfix:after {
   content: "";
   clear: both;
   display: table;

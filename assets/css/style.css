@@ -80,13 +80,13 @@ submit {
   position: relative;
 }
 
-.search-bar__field::before {
+.search-bar__field:before {
   content: url("../images/searchbar-rounded.png");
   position: absolute;
   left: -7px;
 }
 
-.search-bar__field::after {
+.search-bar__field:after {
   content: url("../images/searchbar-rounded-r.png");
   position: absolute;
   right: -7px;
@@ -130,14 +130,14 @@ submit {
   font-weight: bold;
 }
 
-.search-bar__btn-text::before {
+.search-bar__btn-text:before {
   content: url("../images/search-btn-rounded.png");
   position: absolute;
   top: 0;
   left: -7px;
 }
 
-.search-bar__btn-text::after {
+.search-bar__btn-text:after {
   content: url("../images/search-btn-rounded-right.png");
   position: absolute;
   top: 0;
