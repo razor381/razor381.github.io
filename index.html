@@ -1,307 +1,100 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/layout.css">
-  <link rel="stylesheet" href="assets/css/reset.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>Tutangle</title>
-</head>
-<body>
-  <div class="main">
-    <div class="header">
-      <div class="header-top bg-blue-200">
-        <div class="container clearfix">
-          <div class="float-l">
-            <div class="main-logo float-l">
-              <img class="mt-20" src="assets/images/logo-main.png" alt="">
-            </div>
-            <div class="search-bar ml-24 float-r">
-              <div class="search-bar__field h-20 float-l">
-                <input class="search-bar__input h-full" type="text" placeholder="Search by Term, Member, or Entry Title">
-                <button class="pl-3">
-                  <img src="assets/images/searchbar-x.png" alt="">
-                </button>
-                <button class="search-bar__loupe-btn pl-3">
-                  <img src="assets/images/searchbar-loupe.png" alt="">
-                </button>
-              </div>
-              <button class="search-bar__btn h-20 float-r">
-                <span class="search-bar__btn-text font-white">SEARCH</span>
-              </button>
-            </div>
-          </div>
-          <div class="header-top__account float-r text-right">
-            <span class="text-right font-15">Joe Burros</span>
-
-            <ul class="header-top__account-actions">
-              <li class="float-l"><a href="#">Home</a></li>
-              <li class="float-l">&nbsp;|&nbsp;</li>
-              <li class="float-l"><a href="#">Settings</a></li>
-              <li class="float-l">&nbsp;|&nbsp;</li>
-              <li class="float-l"><a href="#">Logout</a></li>
-            </ul>
-          </div>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <title>Rujal Shrestha</title>
+  </head>
+  <body>
+    <div class="assignment-table">
+      <div class="header">
+        <h1>Rujal Shrestha - SE33</h1>
       </div>
-      <div class="header-bottom bg-gray-200">
-        <div class="container clearfix">
-          <ul class="float-l">
-            <li class="header-bottom__items"><a href="#">Create New Entry</a></li>
-            <li class="header-bottom__items"><a href="#">My Topic Boxes</a></li>
-            <li class="header-bottom__items"><a href="#">Friends</a></li>
-            <li class="header-bottom__items"><a href="#">Invite New Member</a></li>
-          </ul>
-          <div class="float-r">
-            <a href="#" class="float-l">
-              <span>
-                <img class="notif-icons" src="assets/images/boxicon-active.png" alt="boxicon">
-              </span>
-              <span>Topic Boxes Invites - 2</span>
-            </a>
-            <a href="#" class="float-l ml-32">
-              <span>
-                <img class="notif-icons" src="assets/images/friend-request-inactive.png" alt="friend request icon">
-              </span>
-              <span class="font-gray">Friend Requests - 0</span>
-            </a>
-          </div>
-        </div>
-      </div>
+      <table class="styled-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Title</th>
+            <th>Demo</th>
+            <th>Code</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- <tr>
+            <td>1</td>
+            <td>Design Assignment 1: 1-A home-search (Layout)</td>
+            <td><a href="Tutangle/index.html"><button class="view-demo">View Demo</button></a></td>
+            <td><a href="https://github.com/sim-my/sim-my.github.io/tree/master/Tutangle"><button class="view-code">View Code</button></a></td>
+          </tr> -->
+          <tr>
+            <td>2</td>
+            <td>Design Assignment 2: 1-A home-search (HTML and CSS)</td>
+            <td><a href="TutangleDesign/index.html"><button class="view-demo">View Demo</button></a></td>
+            <td><a href="https://github.com/razor381/razor381.github.io/tree/master/TutangleStatic"><button class="view-code">View Code</button></a></td>
+          </tr>
+          <!-- <tr>
+            <td>3</td>
+            <td>Design Assignment 3: 1-A home-search Responsive (HTML and CSS)</td>
+            <td><a href="TutangleResponsive/index.html"><button class="view-demo">View Demo</button></a></td>
+            <td><a href="https://github.com/sim-my/sim-my.github.io/tree/master/TutangleResponsive"><button class="view-code">View Code</button></a></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Design Assignment 4: Design Final Assignment: Responsive</td>
+            <td><a href="FinalAssignment/index.html"><button class="view-demo">View Demo</button></a></td>
+            <td><a href="https://github.com/sim-my/sim-my.github.io/tree/master/FinalAssignment"><button class="view-code">View Code</button></a></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>JS Assignment 5: JS Console Assignments</td>
+            <td><a href="JSAssignment/index.html"><button class="view-demo">View Demo</button></a></td>
+            <td><a href="https://github.com/sim-my/sim-my.github.io/tree/master/JSAssignment"><button class="view-code">View Code</button></a></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>JS Assignment 6: JS DOM Assignments (Plotting Points)</td>
+            <td><a href="JSAnimationAssignments/plot.html"><button class="view-demo">View Demo</button></a></td>
+            <td><a href="https://github.com/sim-my/sim-my.github.io/tree/master/JSAnimationAssignments"><button class="view-code">View Code</button></a></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>JS Assignment 7: JS DOM Assignments (Bouncing Ball)</td>
+            <td><a href="JSAnimationAssignments/bounce.html"><button class="view-demo">View Demo</button></a></td>
+            <td><a href="https://github.com/sim-my/sim-my.github.io/tree/master/JSAnimationAssignments"><button class="view-code">View Code</button></a></td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>JS Assignment 8: JS Carousel (Responsive)</td>
+            <td><a href="JSCarousel/index.html"><button class="view-demo">View Demo</button></a></td>
+            <td><a href="https://github.com/sim-my/sim-my.github.io/tree/master/JSCarousel"><button class="view-code">View Code</button></a></td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>JS Assignment 9: Box Collision</td>
+            <td><a href="JSBoxCollision/index.html"><button class="view-demo">View Demo</button></a></td>
+            <td><a href="https://github.com/sim-my/sim-my.github.io/tree/master/JSBoxCollision"><button class="view-code">View Code</button></a></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>JS Assignment 10: Ant Smasher</td>
+            <td><a href="JSAntSmasher/index.html"><button class="view-demo">View Demo</button></a></td>
+            <td><a href="https://github.com/sim-my/sim-my.github.io/tree/master/JSAntSmasher"><button class="view-code">View Code</button></a></td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>JS Assignment 11: Car Lane Game (3 Lane)</td>
+            <td><a href="JSCarLaneGame/index.html"><button class="view-demo">View Demo</button></a></td>
+            <td><a href="https://github.com/sim-my/sim-my.github.io/tree/master/JSCarLaneGame"><button class="view-code">View Code</button></a></td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>JS Final Project: Mini Battles</td>
+            <td><a href="MiniBattles/index.html"><button class="view-demo">View Demo</button></a></td>
+            <td><a href="https://github.com/sim-my/sim-my.github.io/tree/master/MiniBattles"><button class="view-code">View Code</button></a></td>
+          </tr> -->
+        </tbody>
+      </table>
     </div>
-
-    <div class="content">
-      <div class="container clearfix">
-        <div class="search-section float-l bg-gray-200">
-          <div>
-            <div class="list-section__header"><span>Recent Searches</span></div>
-            <div>
-              <div class="list-section__item">
-                <p>Nick Cave and the Bad Seeds</p>
-                <span class="list-section__item-icon"><img src="assets/images/save-new.png" alt=""></span>
-              </div>
-              <div class="list-section__item">
-                <p>African Animals</p>
-                <span class="list-section__item-icon"><img src="assets/images/save-new.png" alt=""></span>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="list-section__header"><span>Recent Searches</span></div>
-            <div>
-              <div class="list-section__item">
-                <p class="list-section__item-label">Different versions of the Tristan Und Isolde Prelude</p>
-                <span class="list-section__item-icon float-r"><img src="assets/images/move-inactive.png"></span>
-              </div>
-              <div class="list-section__item">
-                <p class="list-section__item-label">Music</p>
-                <span class="list-section__item-icon"><img src="assets/images/move-inactive.png"></span>
-              </div>
-              <div class="list-section__item">
-                <p class="list-section__item-label">Guitar</p>
-                <span class="list-section__item-icon"><img src="assets/images/move-inactive.png"></span>
-              </div>
-              <div class="list-section__item">
-                <p class="list-section__item-label">Bob Cohen</p>
-                <span class="list-section__item-icon"><img src="assets/images/move-inactive.png"></span>
-              </div>
-              <div class="list-section__item">
-                <p class="list-section__item-label">Mark Schnack</p>
-                <span class="list-section__item-icon"><img src="assets/images/move-inactive.png"></span>
-              </div>
-              <div class="list-section__item">
-                <p class="list-section__item-label">jefferson Dickey</p>
-                <span class="list-section__item-icon"><img src="assets/images/move-inactive.png"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="entries-section float-l">
-          <h1 class="entries-title">Entries</h1>
-          <div class="entries-body mt-10">
-            <div class="entries-body__header">
-              <div class="entries-type">
-                <div class="background-element bg-gray-200"></div>
-                <div class="entries-type__title text-center"><span>All Entries</span></div>
-                <div class="clearfix">
-                  <div class="entries-tab-wrapper float-l">
-                    <div class="entries-tab"><span>Members</span></div>
-                  </div>
-                  <div class="entries-tab-wrapper float-l">
-                    <div class="entries-tab"><span>Friends</span></div>
-                  </div>
-                </div>
-              </div>
-              <div class="entries-type ml-2">
-                <div class="background-element bg-gray-200"></div>
-                <div class="entries-type__title text-center"><span>Subscribed</span></div>
-                <div class="clearfix">
-                  <div class="entries-tab-wrapper float-l">
-                    <div class="entries-tab"><span>New Entries</span></div>
-                  </div>
-                  <div class="entries-tab-wrapper float-l">
-                    <div class="entries-tab"><span>New Comments</span></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="entries-body__content">
-              <div class="entry-list">
-
-                <div class="entry clearfix">
-                  <div class="entry-img-wrapper float-l">
-                    <img class="entry-img" src="assets/images/pic-1.png" alt="">
-                  </div>
-                  <div class="entry-description float-l">
-                    <div class="entry-title mt-4">Day for Night by Francois Truffaut, a ground breaking film</div>
-                    <div class="entry-specs mt-4">
-                      by
-                      <span class="font-blue font-bold">Alan Cow</span>
-                      &nbsp;|&nbsp;February 10, 2012&nbsp;|&nbsp;
-                      <span class="font-green font-bold">Subscribed</span>
-                    </div>
-                    <div class="entry-specs">
-                      From Topic Box:&nbsp;
-                      <span class="font-blue font-bold">My Favorite Movies</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="entry clearfix">
-                  <div class="entry-img-wrapper float-l">
-                    <img class="entry-img" src="assets/images/pic-2.png" alt="">
-                  </div>
-                  <div class="entry-description float-l">
-                    <div class="entry-extra-spec font-dark-blue">NEW ENTRY!</div>
-                    <div class="entry-title mt-4">Blade Runner, The Director's Cut</div>
-                    <div class="entry-specs mt-4">
-                      by
-                      <span class="font-blue font-bold">Mary Pilot</span>
-                      &nbsp;|&nbsp;February 10, 2012
-                    </div>
-                    <div class="entry-specs">
-                      From Topic Box:&nbsp;
-                      <span class="font-blue font-bold">Behind the Scene</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="entry clearfix">
-                  <div class="entry-img-wrapper float-l">
-                    <img class="entry-img" src="assets/images/pic-3.png" alt="">
-                  </div>
-                  <div class="entry-description float-l">
-                    <div class="entry-extra-spec font-dark-blue">NEW COMMENT!</div>
-                    <div class="entry-title mt-4"> The Best French Restaurant in Chicago?</div>
-                    <div class="entry-specs mt-4">
-                      by
-                      <span class="font-blue font-bold">Jim Roy</span>
-                      &nbsp;|&nbsp;February 10, 2012
-                    </div>
-                    <div class="entry-specs">
-                      From Topic Box:&nbsp;
-                      <span class="font-blue font-bold">Chicago Restaurants Reviews</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="entry clearfix">
-                  <div class="entry-img-wrapper float-l">
-                    <img class="entry-img" src="assets/images/pic-4.png" alt="">
-                  </div>
-                  <div class="entry-description float-l">
-                    <div class="entry-title mt-4">The Meaning of Night. Dark Book but incredibly well written.</div>
-                    <div class="entry-specs mt-4">
-                      by
-                      <span class="font-blue font-bold"> John-Peter Moise</span>
-                      &nbsp;|&nbsp;February 10, 2012&nbsp;|&nbsp;
-                      <span class="font-green font-bold">Subscribed</span>
-                    </div>
-                    <div class="entry-specs">
-                      From Topic Box:&nbsp;
-                      <span class="font-blue font-bold">Books Read & Books to Read</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="entry clearfix">
-                  <div class="entry-img-wrapper float-l">
-                    <img class="entry-img" src="assets/images/pic-5.png" alt="">
-                  </div>
-                  <div class="entry-description float-l">
-                    <div class="entry-extra-spec font-red">TOPIC BOX INVITE!</div>
-                    <div class="entry-title mt-4"> Pea Pesto</div>
-                    <div class="entry-specs mt-4">
-                      by
-                      <span class="font-blue font-bold">Marianne Gig</span>
-                      &nbsp;|&nbsp;February 10, 2012
-                    </div>
-                    <div class="entry-specs">
-                      From Topic Box:&nbsp;
-                      <span class="font-blue font-bold">Favorite Recipes</span>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-section float-l bg-gray-200">
-          <div class="list-section__header"><span>Video Tutorials</span></div>
-          <div>
-            <div class="list-section__item">
-              <p>Overview of TuTangle</p>
-            </div>
-            <div class="list-section__item">
-              <p>Searching the Site</p>
-            </div>
-            <div class="list-section__item">
-              <p>Previous & Saved Searches</p>
-            </div>
-            <div class="list-section__item">
-              <p>The Topic Box Page</p>
-            </div>
-            <div class="list-section__item">
-              <p>Creating a Topic Box</p>
-            </div>
-            <div class="list-section__item">
-              <p>View Topic Box Entries</p>
-            </div>
-            <div class="list-section__item">
-              <p>Creating an Entry</p>
-            </div>
-            <div class="list-section__item">
-              <p>Privacy Settings</p>
-            </div>
-            <div class="list-section__item">
-              <p>Co-Authoring</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer bg-gray-400 font-white">
-      <div class="container">
-        <ul class="float-l clearfix">
-          <li class="float-l"><a href="#">About Us</a></li>
-          <li class="float-l footer__dots">•</li>
-          <li class="float-l"><a href="#">Contact Us</a></li>
-          <li class="float-l footer__dots">•</li>
-          <li class="float-l"><a href="#">Terms of Use</a></li>
-          <li class="float-l footer__dots">•</li>
-          <li class="float-l"><a href="#">Privacy Policy</a></li>
-          <li class="float-l footer__dots">•</li>
-          <li class="float-l"><a href="#">Feedback</a></li>
-        </ul>
-        <span class="float-r">© TuTangle 2021</span>
-      </div>
-    </div>
-
-  </div>
-</body>
+  </body>
 </html>
