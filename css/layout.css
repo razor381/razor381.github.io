@@ -1,5 +1,5 @@
 html {
-  font-family: sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .assignment-table {
@@ -22,6 +22,16 @@ html {
 }
 .name {
   font-size: 3rem;
+}
+.assign-number {
+  font-size: 1rem;
+}
+.date {
+  color: #646464;
+  font-style: italic;
+}
+.table-row {
+  padding: 1rem 0;
 }
 .table-wrapper {
   flex: 2;
