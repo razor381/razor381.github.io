@@ -7,15 +7,28 @@ html {
   height: 100%;
 }
 
+.header::after {
+  content: "";
+  background: url("../assets/images/gplay.png");
+  opacity: 0.4;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 .header {
+  position: relative;
   background-color: #006898;
-  padding-right: 4rem;
   flex: 1.3;
   flex-direction: column;
   color: #fff;
   display: flex;
   align-items: flex-end;
   justify-content: center;
+}
+.header-text {
+  margin-right: 4rem;
+  text-align: right;
 }
 .roll {
   font-size: 7rem;
@@ -34,12 +47,14 @@ html {
   padding: 1rem 0;
 }
 .table-wrapper {
+  background-color: #e6e6e6;
   flex: 2;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .styled-table {
+  background-color: white;
   border-collapse: collapse;
   margin: 25px auto;
   font-size: 0.85em;
