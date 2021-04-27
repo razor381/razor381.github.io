@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://kit.fontawesome.com/32f441d80c.js" crossorigin="anonymous"></script>
+  <title>Tutangle</title>
+</head>
+<body>
+  <div class="main">
+
+    <ul class="hidden-menu menu-style">
+      <li><a href="#">Create New Entry</a></li>
+      <li><a href="#">My Topic Boxes</a></li>
+      <li><a href="#">Friends</a></li>
+      <li><a href="#">Invite New Member</a></li>
+      <li><a href="#">Topic Boxes Invites</a></li>
+      <li><a href="#">Friend Requests</a></li>
+    </ul>
+
+    <div class="header">
+      <button class="burger-icon">
+        <i class="fas fa-bars fa-3x"></i>
+      </button>
+
+      <div class="header-top bg-blue-200">
+        <div class="header-top__content container clearfix">
+          <div class="header-top__left-content">
+            <div class="main-logo">
+              <img class="mt-20" src="assets/images/logo-main.png" alt="">
+            </div>
+            <div class="search-bar clearfix">
+              <div class="search-bar__field h-20 float-l">
+                <input class="search-bar__input h-full" type="text" placeholder="Search by Term, Member, or Entry Title">
+                <span class="search-bar__icons"
+                  ><button class="pl-3">
+                    <img src="assets/images/searchbar-x.png" alt="">
+                  </button>
+                  <button class="search-bar__loupe-btn pl-3">
+                    <img src="assets/images/searchbar-loupe.png" alt="">
+                  </button
+                  ></span>
+              </div>
+              <button class="search-bar__btn h-20 float-r">
+                <span class="search-bar__btn-text font-white">SEARCH</span>
+              </button>
+            </div>
+          </div>
+          <div class="header-top__account">
+            <span class="text-right font-15">Joe Burros</span>
+
+            <div class="header-top__account-actions">
+              <a href="#">Home</a>
+              &nbsp;|&nbsp;
+              <a href="#">Settings</a>
+              &nbsp;|&nbsp;
+              <a href="#">Logout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom bg-gray-100">
+        <div class="container clearfix">
+          <ul class="header-bottom__left-navs float-l">
+            <li class="header-bottom__items"><a href="#">Create New Entry</a></li>
+            <li class="header-bottom__items"><a href="#">My Topic Boxes</a></li>
+            <li class="header-bottom__items"><a href="#">Friends</a></li>
+            <li class="header-bottom__items"><a href="#">Invite New Member</a></li>
+          </ul>
+          <div class="header-bottom__right-navs float-r">
+            <a href="#" class="float-l">
+              <span>
+                <img class="notif-icons" src="assets/images/boxicon-active.png" alt="boxicon">
+              </span>
+              <span>Topic Boxes Invites - 2</span>
+            </a>
+            <a href="#" class="float-l ml-32">
+              <span>
+                <img class="notif-icons" src="assets/images/friend-request-inactive.png" alt="friend request icon">
+              </span>
+              <span class="font-gray">Friend Requests - 0</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="container clearfix h-full">
+        <div class="search-section bg-gray-100">
+          <div class="list-section__wrapper">
+            <div class="list-section__header">
+              <span>Recent Searches</span>
+            </div>
+            <div class="list-section__header-touch clearfix">
+              <span class="float-l">Recent Searches</span>
+              <span class="float-r mr-12">
+                <i class="fas fa-chevron-down fa-lg"></i>
+              </span>
+            </div>
+            <div class="list-section__items">
+              <div class="list-section__item">
+                <span>Nick Cave and the Bad Seeds</span>
+                <span class="list-section__item-icon"><img src="assets/images/save-new.png" alt=""></span>
+              </div>
+              <div class="list-section__item">
+                <span>African Animals</span>
+                <span class="list-section__item-icon"><img src="assets/images/save-new.png" alt=""></span>
+              </div>
+            </div>
+          </div>
+          <div class="list-section__wrapper">
+            <div class="list-section__header">
+              <span>Saved Searches</span>
+            </div>
+            <div class="list-section__header-touch clearfix">
+              <span class="float-l">Saved Searches</span>
+              <span class="float-r mr-12">
+                <i class="fas fa-chevron-down fa-lg"></i>
+              </span>
+            </div>
+            <div class="list-section__items">
+              <div class="list-section__item">
+                <span class="list-section__item-label">Different versions of the Tristan Und Isolde Prelude</span>
+                <span class="list-section__item-icon"><img src="assets/images/move-inactive.png"></span>
+              </div>
+              <div class="list-section__item">
+                <span class="list-section__item-label">Music</span>
+                <span class="list-section__item-icon"><img src="assets/images/move-inactive.png"></span>
+              </div>
+              <div class="list-section__item">
+                <span class="list-section__item-label">Guitar</span>
+                <span class="list-section__item-icon"><img src="assets/images/move-inactive.png"></span>
+              </div>
+              <div class="list-section__item">
+                <span class="list-section__item-label">Bob Cohen</span>
+                <span class="list-section__item-icon"><img src="assets/images/move-inactive.png"></span>
+              </div>
+              <div class="list-section__item">
+                <span class="list-section__item-label">Mark Schnack</span>
+                <span class="list-section__item-icon"><img src="assets/images/move-inactive.png"></span>
+              </div>
+              <div class="list-section__item">
+                <span class="list-section__item-label">jefferson Dickey</span>
+                <span class="list-section__item-icon"><img src="assets/images/move-inactive.png"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="entries-section">
+          <h1 class="entries-title">Entries</h1>
+          <div class="entries-body mt-10">
+            <div class="entries-body__header border-bottom--blue">
+              <div class="entries-type">
+                <div class="background-element bg-gray-100"></div>
+                <div class="entries-type__title text-center"><span>All Entries</span></div>
+                <div class="clearfix">
+                  <div class="entries-tab-wrapper float-l">
+                    <div class="entries-tab entries-tab--active"><span>Members</span></div>
+                  </div>
+                  <div class="entries-tab-wrapper float-l">
+                    <div class="entries-tab bg-gray-200"><span>Friends</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="entries-type">
+                <div class="background-element bg-gray-100"></div>
+                <div class="entries-type__title text-center"><span>Subscribed</span></div>
+                <div class="clearfix">
+                  <div class="entries-tab-wrapper float-l">
+                    <div class="entries-tab bg-gray-200"><span>New Entries</span></div>
+                  </div>
+                  <div class="entries-tab-wrapper float-l">
+                    <div class="entries-tab bg-gray-200"><span>New Comments</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="entries-body__content">
+              <div class="entry border-bottom clearfix">
+                <img class="entry-img" src="assets/images/pic-1.png" alt="">
+                <div class="entry-description-wrapper">
+                  <div class="entry-description">
+                    <div class="entry-title mt-4">Day for Night by Francois Truffaut, a ground breaking film</div>
+                    <div class="entry-specs mt-4">
+                      by
+                      <span class="font-blue font-bold">Alan Cow</span>
+                      &nbsp;|&nbsp;February 10, 2012&nbsp;|&nbsp;
+                      <span class="font-green font-bold">Subscribed</span>
+                    </div>
+                    <div class="entry-specs">
+                      From Topic Box:&nbsp;
+                      <span class="font-blue font-bold">My Favorite Movies</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="entry border-bottom clearfix">
+                <img class="entry-img" src="assets/images/pic-2.png" alt="">
+                <div class="entry-description-wrapper">
+                  <div class="entry-description">
+                    <div class="entry-extra-spec font-dark-blue">NEW ENTRY!</div>
+                    <div class="entry-title mt-4">Blade Runner, The Director's Cut</div>
+                    <div class="entry-specs mt-4">
+                      by
+                      <span class="font-blue font-bold">Mary Pilot</span>
+                      &nbsp;|&nbsp;February 10, 2012
+                    </div>
+                    <div class="entry-specs">
+                      From Topic Box:&nbsp;
+                      <span class="font-blue font-bold">Behind the Scene</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="entry border-bottom clearfix">
+                <img class="entry-img" src="assets/images/pic-3.png" alt="">
+                <div class="entry-description-wrapper">
+                  <div class="entry-description">
+                    <div class="entry-extra-spec font-dark-blue">NEW COMMENT!</div>
+                    <div class="entry-title mt-4"> The Best French Restaurant in Chicago?</div>
+                    <div class="entry-specs mt-4">
+                      by
+                      <span class="font-blue font-bold">Jim Roy</span>
+                      &nbsp;|&nbsp;February 10, 2012
+                    </div>
+                    <div class="entry-specs">
+                      From Topic Box:&nbsp;
+                      <span class="font-blue font-bold">Chicago Restaurants Reviews</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="entry border-bottom clearfix">
+                <img class="entry-img" src="assets/images/pic-4.png" alt="">
+                <div class="entry-description-wrapper">
+                  <div class="entry-description">
+                    <div class="entry-title mt-4">The Meaning of Night. Dark Book but incredibly well written.</div>
+                    <div class="entry-specs mt-4">
+                      by
+                      <span class="font-blue font-bold"> John-Peter Moise</span>
+                      &nbsp;|&nbsp;February 10, 2012&nbsp;|&nbsp;
+                      <span class="font-green font-bold">Subscribed</span>
+                    </div>
+                    <div class="entry-specs">
+                      From Topic Box:&nbsp;
+                      <span class="font-blue font-bold">Books Read & Books to Read</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="entry border-bottom clearfix">
+                <img class="entry-img" src="assets/images/pic-5.png" alt="">
+                <div class="entry-description-wrapper">
+                  <div class="entry-description">
+                    <div class="entry-extra-spec font-red">TOPIC BOX INVITE!</div>
+                    <div class="entry-title mt-4"> Pea Pesto</div>
+                    <div class="entry-specs mt-4">
+                      by
+                      <span class="font-blue font-bold">Marianne Gig</span>
+                      &nbsp;|&nbsp;February 10, 2012
+                    </div>
+                    <div class="entry-specs">
+                      From Topic Box:&nbsp;
+                      <span class="font-blue font-bold">Favorite Recipes</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-section bg-gray-100">
+          <div class="list-section__header">
+            <span>Video Tutorials</span>
+          </div>
+          <div class="list-section__header-touch clearfix">
+            <span class="float-l">Video Tutorials</span>
+            <span class="float-r mr-12">
+              <i class="fas fa-chevron-down fa-lg"></i>
+            </span>
+          </div>
+          <div class="list-section__items">
+            <div class="list-section__item">
+              <p>Overview of TuTangle</p>
+            </div>
+            <div class="list-section__item">
+              <p>Searching the Site</p>
+            </div>
+            <div class="list-section__item">
+              <p>Previous & Saved Searches</p>
+            </div>
+            <div class="list-section__item">
+              <p>The Topic Box Page</p>
+            </div>
+            <div class="list-section__item">
+              <p>Creating a Topic Box</p>
+            </div>
+            <div class="list-section__item">
+              <p>View Topic Box Entries</p>
+            </div>
+            <div class="list-section__item">
+              <p>Creating an Entry</p>
+            </div>
+            <div class="list-section__item">
+              <p>Privacy Settings</p>
+            </div>
+            <div class="list-section__item">
+              <p>Co-Authoring</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer bg-gray-400 font-white">
+      <div class="footer__sections container">
+        <div class="footer__left-section clearfix">
+          <div><a href="#">About Us</a></div>
+          <div class="footer__dots">•</div>
+          <div><a href="#">Contact Us</a></div>
+          <div class="footer__dots">•</div>
+          <div><a href="#">Terms of Use</a></div>
+          <div class="footer__dots">•</div>
+          <div><a href="#">Privacy Policy</a></div>
+          <div class="footer__dots">•</div>
+          <div><a href="#">Feedback</a></div>
+        </div>
+        <span class="footer__right-section">© TuTangle 2021</span>
+      </div>
+    </div>
+
+  </div>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
