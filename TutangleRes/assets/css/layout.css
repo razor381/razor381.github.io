@@ -360,7 +360,9 @@ body {
   .burger-icon {
     display: inline;
   }
+}
 
+@media only screen and (min-width: 800px) {
   .hidden-menu {
     display: none;
   }
