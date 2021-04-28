@@ -362,9 +362,9 @@ body {
   }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 801px) {
   .hidden-menu {
-    display: none;
+    display: none !important;
   }
 }
 
