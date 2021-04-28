@@ -364,6 +364,7 @@ body {
 
 @media only screen and (min-width: 801px) {
   .hidden-menu {
+    /* @TODO: Urgent Hotfix, will find alternative solution*/
     display: none !important;
   }
 }
