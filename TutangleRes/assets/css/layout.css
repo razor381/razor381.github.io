@@ -142,8 +142,8 @@ body {
   position: absolute;
   top: 13%;
   right: 5%;
-  text-align: center;
-  width: 90%;
+  text-align: right;
+  width: 70%;
   display: none;
 }
 
@@ -359,6 +359,12 @@ body {
 
   .burger-icon {
     display: inline;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .hidden-menu {
+    display: none;
   }
 }
 

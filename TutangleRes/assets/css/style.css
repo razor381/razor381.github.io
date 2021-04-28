@@ -94,22 +94,30 @@ submit {
 }
 
 .menu-style {
-  background-color: #5c5c5c;
+  background-color: #f5f5f5;
 }
 
 .menu-style li {
   border-bottom: 1px solid #dddddd;
 }
 
+.menu-style li:nth-of-type(4),
 .menu-style li:last-of-type {
-  border-bottom: none;
+  border-bottom: 2px solid #4eafbf;
 }
 
 .menu-style a {
-  color: white;
   font-size: 16px;
   display: block;
-  padding: 16px 0;
+  padding: 16px 32px 16px 0;
+}
+
+.hidden-menu__notif--active {
+  color: black;
+}
+
+.hidden-menu__notif {
+  color: #ababab;
 }
 
 .search-bar__field {
