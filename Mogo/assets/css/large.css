@@ -1,0 +1,262 @@
+@media only screen and (min-width: 1140px) {
+
+  /* header section */
+
+
+  .header-content {
+    padding: 0 18.229%;
+  }
+
+  .header__nav-section {
+    margin-right: 2rem;
+  }
+
+  .header__nav-icon:first-of-type {
+    margin-right: 1rem;
+  }
+
+
+  /* welcome section */
+
+  .welcome {
+    height: 45rem;
+  }
+
+  .center-content__header-sm {
+    font-size: 2.8rem;
+  }
+
+  .center-content__header-lg p {
+    font-size: 5rem;
+  }
+
+  .center-content__dash-wrapper {
+    margin-top: 2rem;
+  }
+
+
+  /* aboutus section */
+
+
+  .aboutus__images {
+    margin: 6rem 0 4rem;
+  }
+
+  .aboutus__img-wrapper {
+    margin: 0 0.5rem;
+  }
+
+  .aboutus__img-wrapper {
+    float: left;
+    width: calc(33.33% - 1rem);
+  }
+
+
+  /* records section */
+
+
+  .records {
+    padding: 0 15%;
+  }
+
+  .record {
+    padding: 3.5rem 2rem;
+  }
+
+  .record:first-of-type {
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .record:last-of-type {
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+
+  /* services section */
+
+
+  .service {
+    padding: 3rem 1rem;
+    width: 33.33%;
+  }
+
+  .service:nth-of-type(4) {
+    border: none;
+  }
+
+  .service__icon {
+    padding-right: 2rem;
+  }
+
+  .service__info-description {
+    margin-top: 0.8rem;
+  }
+
+
+  /* devices section */
+
+
+
+  /* tasks section */
+
+
+  .tasks-img {
+    float: left;
+    width: 49%;
+  }
+
+  .tasks-explanation {
+    float: right;
+    width: 49%;
+    margin: 0;
+  }
+
+  .task {
+    margin: 0 0 1rem 0;
+  }
+
+  .task-header__title {
+    padding: 1rem 2rem 1rem 3.5rem;
+    font-size: 0.9em;
+  }
+
+  .task-header__left-icon {
+    position: absolute;
+    left: 10px;
+    top: 0.5rem;
+    transform: scale(0.8, 0.8);
+  }
+
+  .task-header__right-icon {
+    position: absolute;
+    right: 1rem;
+    top: 1.2rem;
+    transform: scale(0.8, 0.8);
+  }
+
+  .task:nth-of-type(2) .task-body,
+  .task:nth-of-type(3) .task-body{
+    display: none;
+  }
+
+  .task-body {
+    height: 8rem;
+  }
+
+
+  /* testimonials */
+
+
+  .testimonial-content {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .testimonial-icon {
+    float: left;
+    width: 3rem;
+    padding-top: 1rem;
+  }
+
+  .testimonial-icon img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .testimonial-wrapper {
+    float: right;
+    width: calc(100% - 4rem);
+    text-align: left;
+  }
+
+  .testimonial-comment {
+    font-size: 1.3em;
+  }
+
+  .testimonial-author__dash {
+    width: 3rem;
+  }
+
+  .testimonial-author__name {
+    font-size: 1.5em;
+    margin-left: 1rem;
+  }
+
+
+  /* team section */
+
+
+  .member {
+    float: left;
+    width: calc((100% - 6rem)/3);
+    margin: 0 1rem;
+  }
+
+  .member-info {
+    margin-top: 2rem;
+  }
+
+  .member-info__designation {
+    margin-top: 0.6rem;
+  }
+
+
+  /* partners */
+
+
+  .partner-link {
+    width: 16.6667%
+  }
+
+  /* @TODO: find alternative method */
+  .partner-link:nth-of-type(2n+1),
+  .partner-link:nth-of-type(2n),
+  .partner-link:nth-of-type(5),
+  .partner-link:nth-of-type(6),
+  .partner-link:nth-of-type(1),
+  .partner-link:nth-of-type(2),
+  .partner-link:nth-of-type(3) {
+    border: none;
+    clear: none;
+  }
+
+
+  /* work section */
+
+
+  .work-overlay-wrapper {
+    float: left;
+    max-width: 30.33%;
+  }
+
+  .work-overlay-wrapper:nth-of-type(2n+1) {
+    clear: both;
+  }
+
+
+  /* comments section */
+
+  .comments {
+    height: 30rem;
+  }
+
+
+  /* sayings section */
+
+
+  .saying {
+    padding: 0;
+  }
+
+
+  /* blog section */
+
+
+  .blog {
+    float: left;
+    width: calc((100% - 6rem)/3);
+    margin: 0 1rem;
+  }
+
+
+}

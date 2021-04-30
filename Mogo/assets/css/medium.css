@@ -1,0 +1,189 @@
+@media only screen and (min-width: 560px) {
+
+  /* header section */
+
+
+  .header-content {
+    padding: 0 2rem;
+  }
+
+  .header__nav-sections {
+    display: block;
+  }
+
+  .header__nav-menu {
+    display: none;
+  }
+
+
+  /* welcome section */
+
+
+  .welcome__leader-dash {
+    width: 90%;
+  }
+
+  .welcome__leader-text {
+    font-size: 0.8em;
+  }
+
+  .welcome__leader-text {
+    display: block;
+  }
+
+
+  /* aboutus section */
+
+  .aboutus__images {
+    margin: 3rem 0;
+  }
+
+  .aboutus__img-wrapper {
+    max-width: 388px;
+  }
+
+
+  /* records section */
+
+
+  .record:nth-of-type(2n+1),
+  .record:nth-of-type(2n),
+  .record:last-of-type {
+    clear: none;
+    width: 20%;
+    float: left;
+    border: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .record:last-of-type {
+    border-right: none;
+  }
+
+
+  /* services section */
+
+
+  .service {
+    float: left;
+    width: 50%;
+    font-size: 0.8em;
+    padding: 2rem 1rem;
+  }
+
+  .service__icon {
+    padding-right: 1rem;
+  }
+
+  .service__info {
+    padding-right: 0;
+  }
+
+  .service:nth-of-type(5) {
+    border-bottom: none;
+  }
+
+
+  /* tasks section */
+
+
+  .tasks-explanation {
+    width: 80%;
+    margin: 2rem auto 0;
+  }
+
+
+  /* partners section */
+
+
+  .partners-wrapper {
+    padding: 0 4rem;
+  }
+
+  .partner-link {
+    float: left;
+    width: 33.33%;
+  }
+
+  /* @TODO: will find alternative to this */
+  .partner-link:nth-of-type(2n+1),
+  .partner-link:nth-of-type(2n),
+  .partner-link:nth-of-type(5),
+  .partner-link:nth-of-type(6) {
+    border: none;
+    clear: none;
+    border-right: 1px solid #cccccc;
+  }
+
+  .partner-link:nth-of-type(1),
+  .partner-link:nth-of-type(2),
+  .partner-link:nth-of-type(3) {
+    border-bottom: 1px solid #cccccc;
+  }
+
+  .partner-link:nth-of-type(3n) {
+    border-right: none;
+  }
+
+  .partner-link img {
+    transform: scale(1, 1);
+  }
+
+
+  /* work section */
+
+
+  .work-overlay-wrapper {
+    float: left;
+    max-width: 50%;
+    font-size: 0.9em;
+  }
+
+  .work-overlay-wrapper:nth-of-type(2n+1) {
+    float: right;
+  }
+
+
+  /* sayings section */
+
+
+  .saying {
+    float: left;
+    width: 50%;
+    padding: 0 2rem;
+  }
+
+  .saying:nth-of-type(2n+1) {
+    float: right;
+    width: 50%;
+  }
+
+
+  /* footer section */
+
+  .footer {
+    padding: 2rem 4rem;
+  }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+  /* footer section */
+
+  .footer__left-group {
+    float: left;
+    width: 50%;
+    padding-right: 2rem;
+  }
+
+  .footer__blogs-wrapper {
+    float: right;
+    width: 50%;
+  }
+
+  .footer__instagram {
+    clear: left;
+  }
+
+}
