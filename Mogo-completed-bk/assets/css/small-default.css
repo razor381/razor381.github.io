@@ -37,58 +37,6 @@ body {
 }
 
 
-/* hidden menu section */
-
-
-.hidden-menu-wrapper {
-  display: none;
-  position: absolute;
-  background-color: rgba(0,0,0,0.4);
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: 200;
-}
-
-.hidden-menu {
-  position: absolute;
-  top: 50vh;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 85vw;
-  background-image: linear-gradient(to top, rgb(238, 184, 102) 0%, rgb(238, 117, 117) 100%);
-  border-radius: 0.5rem;
-  overflow: hidden;
-  padding: 1rem;
-  color: white;
-}
-
-.hidden-menu__links-wrapper {
-  padding: 1rem;
-}
-
-.hidden-menu__links {
-  position: relative;
-  height: 100%;
-  padding: 1rem 0;
-}
-
-.hidden-menu__close-btn {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 2rem;
-  z-index: 220;
-}
-
-.hidden-menu-btn {
-  padding: 1rem 2rem;
-  font-family: Montserrat;
-  font-size: 1.5em;
-  font-weight: 500;
-}
-
-
 /* header section */
 
 
