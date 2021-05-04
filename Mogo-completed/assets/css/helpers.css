@@ -74,6 +74,9 @@
 
 .overlay-wrapper:hover .gradient-overlay {
   opacity: 1;
+  transform: translate(-10px, -10px);
+  box-shadow: 10px 10px 0 0 #95e1d3;
+}
 }
 
 h2 {
