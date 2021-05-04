@@ -70,6 +70,7 @@
   display: table-cell;
   vertical-align: middle;
   color: white;
+  z-index: 2500;
 }
 
 .overlay-wrapper:hover .gradient-overlay {
