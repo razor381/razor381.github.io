@@ -1,0 +1,78 @@
+.carousel {
+  margin: 1rem 4rem;
+  position: relative;
+}
+
+.carousel__left-btn,
+.carousel__right-btn {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
+  color: white;
+  background: rgb(163, 163, 163);
+  border: 3px solid rgb(138, 138, 138);
+  font-size: 22px;
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.carousel__left-btn:hover,
+.carousel__right-btn:hover {
+  background: white;
+  color: black;
+}
+
+.carousel__left-btn {
+  content: '<';
+  left: -4rem;
+}
+
+.carousel__right-btn {
+  content: '>';
+  right: -4rem;
+}
+
+.carousel-content {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  border-radius: 8px;
+}
+
+.carousel-content img {
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav-leaders {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-leader {
+  padding: 0;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 2rem;
+  border: 2px solid white;
+  margin: 0 0.3rem;
+  background: rgb(77, 77, 77);
+  cursor: pointer;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.9);
+}
+
+.nav-leader--active {
+  background: rgb(219, 219, 219);
+}
+
+.hidden {
+  display: none;
+}

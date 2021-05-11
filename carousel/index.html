@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SE33 | Carousel</title>
+
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/carousel.css">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="main-container">
+
+    <h1 class="main-header">Image Carousel Library</h1>
+
+    <section class="section">
+      <div class="section-headers">
+        <h2 class="section__header">Welcome</h2>
+        <div class="section__description">
+          <ul>
+            <li>Javascript Assignment</li>
+            <li>Built using CSS and JS</li>
+            <li>Plug-n-play usage</li>
+            <li>Easy navigation</li>
+            <li>Ships with customizable modifiers</li>
+          </ul>
+        </div>
+      </div>
+      <div class="carousel hold-1 section__content">
+        <div class="carousel-content">
+          <img src="assets/img/img-1.jpg" alt="carousel image 1">
+          <img src="assets/img/img-2.jpg" alt="carousel image 2">
+          <img src="assets/img/img-3.jpg" alt="carousel image 3">
+          <img src="assets/img/img-4.jpg" alt="carousel image 4">
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--reverse">
+      <div class="section-headers">
+        <h2 class="section__header">How to</h2>
+        <div class="section__description">
+          <ol>
+            <li>Copy and link js and css files</li>
+            <li>wrap images inside two parents</li>
+            <li>add external class 'carousel'</li>
+            <li>add internal class 'carousel-content'</li>
+            <li>set width and height to external parents</li>
+            <li>that's it!</li>
+          </ol>
+        </div>
+      </div>
+      <div class="carousel autoscroll section__content">
+        <div class="carousel-content">
+          <img src="assets/img/img-1.jpg" alt="carousel image 1">
+          <img src="assets/img/img-2.jpg" alt="carousel image 2">
+          <img src="assets/img/img-3.jpg" alt="carousel image 3">
+          <img src="assets/img/img-4.jpg" alt="carousel image 4">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-headers">
+        <h2 class="section__header">Introduce Automation</h2>
+        <div class="section__description">
+          <ul>
+            <li>add 'autoscroll' class</li>
+            <li>enables automatic scrolling</li>
+          </ul>
+        </div>
+      </div>
+      <div class="carousel section__content autoscroll">
+        <div class="carousel-content">
+          <img src="assets/img/img-1.jpg" alt="carousel image 1">
+          <img src="assets/img/img-2.jpg" alt="carousel image 2">
+          <img src="assets/img/img-1.jpg" alt="carousel image 1">
+          <img src="assets/img/img-2.jpg" alt="carousel image 2">
+          <img src="assets/img/img-3.jpg" alt="carousel image 3">
+          <img src="assets/img/img-4.jpg" alt="carousel image 4">
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--reverse">
+      <div class="section-headers">
+        <h2 class="section__header">Set your pace</h2>
+        <div class="section__description">
+          <ul>
+            <li>add 'hold-X' class</li>
+            <li>sets 'X' delay in seconds</li>
+            <li>sets in-between hold time</li>
+            <li>Eg: hold-1, hold-4</li>
+          </ul>
+        </div>
+      </div>
+      <div class="carousel section__content autoscroll hold-1">
+        <div class="carousel-content">
+          <img src="assets/img/img-1.jpg" alt="carousel image 1">
+          <img src="assets/img/img-2.jpg" alt="carousel image 2">
+          <img src="assets/img/img-1.jpg" alt="carousel image 1">
+          <img src="assets/img/img-2.jpg" alt="carousel image 2">
+          <img src="assets/img/img-3.jpg" alt="carousel image 3">
+          <img src="assets/img/img-4.jpg" alt="carousel image 4">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-headers">
+        <h2 class="section__header">Like things backward?</h2>
+        <div class="section__description">
+          <ul>
+            <li>add 'left-autoscroll' class</li>
+            <li>reverses autoscroll direction</li>
+          </ul>
+        </div>
+      </div>
+      <div class="carousel section__content autoscroll hold-2 left-autoscroll">
+        <div class="carousel-content">
+          <img src="assets/img/img-1.jpg" alt="carousel image 1">
+          <img src="assets/img/img-2.jpg" alt="carousel image 2">
+          <img src="assets/img/img-1.jpg" alt="carousel image 1">
+          <img src="assets/img/img-2.jpg" alt="carousel image 2">
+          <img src="assets/img/img-3.jpg" alt="carousel image 3">
+          <img src="assets/img/img-4.jpg" alt="carousel image 4">
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--reverse">
+      <div class="section-headers">
+        <h2 class="section__header">Don't need buttons?</h2>
+        <div class="section__description">
+          <ul>
+            <li>add 'no-buttons' class</li>
+            <li>removes left/right buttons</li>
+            <li>navigation only using leaders</li>
+          </ul>
+        </div>
+      </div>
+      <div class="carousel section__content no-buttons">
+        <div class="carousel-content">
+          <img src="assets/img/img-1.jpg" alt="carousel image 1">
+          <img src="assets/img/img-2.jpg" alt="carousel image 2">
+          <img src="assets/img/img-1.jpg" alt="carousel image 1">
+          <img src="assets/img/img-2.jpg" alt="carousel image 2">
+          <img src="assets/img/img-3.jpg" alt="carousel image 3">
+          <img src="assets/img/img-4.jpg" alt="carousel image 4">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-headers">
+        <h2 class="section__header">Devoted to Minimalism?</h2>
+        <div class="section__description">
+          <ul>
+            <li>add 'minimal' class</li>
+            <li>stips buttons and leaders</li>
+            <li>removes user control</li>
+            <li>adds autoscrolling</li>
+          </ul>
+        </div>
+      </div>
+      <div class="carousel section__content minimal hold-1">
+        <div class="carousel-content">
+          <img src="assets/img/img-1.jpg" alt="carousel image 1">
+          <img src="assets/img/img-2.jpg" alt="carousel image 2">
+          <img src="assets/img/img-1.jpg" alt="carousel image 1">
+          <img src="assets/img/img-2.jpg" alt="carousel image 2">
+          <img src="assets/img/img-3.jpg" alt="carousel image 3">
+          <img src="assets/img/img-4.jpg" alt="carousel image 4">
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="assets/js/index.js"></script>
+  <script src="assets/js/carousel.js"></script>
+</body>
+</html>
