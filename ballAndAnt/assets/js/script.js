@@ -10,7 +10,7 @@ const DEFAULT_COLOR = 'rgba(255, 255, 255, 0.5)';
 const WHITE_COLOR = 'white';
 
 const COLORS = ['#46B39D', '#F0CA4D', '#E37B40', '#DE5B49'];
-const ANT_IMAGE_SRC = '../assets/img/ant.png';
+const ANT_IMAGE_SRC = '/ballAndAnt/assets/img/ant.png';
 
 const canvas = document.querySelector('canvas');
 const ballBtn = document.querySelector('.ball-btn');
