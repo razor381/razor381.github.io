@@ -23,9 +23,9 @@ const ARROW_UP = 'ArrowUp'  ;
 
 const BEST_SCORE_KEY = '@BEST_SCORE';
 
-const PLAYER_IMG = '../assets/img/player.png';
-const ENEMY_IMG = '../assets/img/enemy.png';
-const BULLET_IMG = '../assets/img/bullet.png';
+const PLAYER_IMG = '/burnout/assets/img/player.png';
+const ENEMY_IMG = '/burnout/assets/img/enemy.png';
+const BULLET_IMG = '/burnout/assets/img/bullet.png';
 
 const ENEMY_SPEED = 5;
 const SPEED_UPDATE_DISTANCE = 2000;
